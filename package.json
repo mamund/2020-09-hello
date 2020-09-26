@@ -1,0 +1,16 @@
+{
+  "name": "2020-09-26-soap",
+  "version": "1.0.0",
+  "description": "simple SOAP example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "soap",
+    "mamund",
+    "api"
+  ],
+  "author": "mamund",
+  "license": "ISC"
+}

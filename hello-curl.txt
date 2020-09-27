@@ -1,0 +1,8 @@
+# curl commands for SOAP service
+
+# view WSDL
+curl -s localhost:8000/hello?wsdl | xmllint --format -
+
+# make SOAP call 
+curl -s localhost:8000/hello -X POST -H "soapAcion: sayHello" --data @hello_request.xml | xmllint --format -
+

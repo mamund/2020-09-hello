@@ -1,6 +1,6 @@
 <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
   <Body>
-    <sayHello xmlns="http://www.examples.com/wsdl/HelloService.wsdl">
+    <sayHello>
       <firstName>mamund</firstName>
     </sayHello>
   </Body>
